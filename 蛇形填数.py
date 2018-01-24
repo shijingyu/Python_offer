@@ -51,6 +51,6 @@ while True:
     testSnake()
     flag = input("Do you want to continue? Y/N").strip()
     #字符串的strip()是为了去除命令行输入前后的空格
-    if(flag.__eq__("Y")):
+    if(flag == 'Y'):
         continue
     break
